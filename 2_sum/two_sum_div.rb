@@ -61,4 +61,4 @@ hash_one.each{|k, v|
 
 p result.length
 
-p result 
+p Hash[result.sort] 
