@@ -1,0 +1,26 @@
+file = File.open('2_sum.txt')
+hash_one = {}
+hash_one.default = []
+numbers = []
+
+while(line = file.gets)
+	num = line.to_i
+	hash_one[num / 10000].push(num)	
+	numbers << num
+end
+
+p hash_one.length
+p hash_two.length
+p hash_three.length
+p hash_four.length
+
+target_values = -10000..10000
+result = 0
+
+hash_one.each{|k, v|
+
+  p k
+}
+
+
+p result 
